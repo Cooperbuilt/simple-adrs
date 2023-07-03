@@ -1,0 +1,30 @@
+{
+  "name": "simple-adrs",
+  "version": "0.0.1",
+  "description": "A CLI for creating and managing architecture decision records",
+  "main": "bin/index.js",
+  "bin": {
+    "adr": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cooperbuilt/simple-adrs.git"
+  },
+  "keywords": [
+    "adr"
+  ],
+  "author": "cooperbuilt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cooperbuilt/simple-adrs/issues"
+  },
+  "homepage": "https://github.com/Cooperbuilt/simple-adrs#readme",
+  "devDependencies": {
+    "inquirer": "^8.0.0",
+    "jest": "^29.5.0"
+  }
+}
