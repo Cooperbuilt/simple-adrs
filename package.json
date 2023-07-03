@@ -4,7 +4,7 @@
   "description": "A CLI for creating and managing architecture decision records",
   "main": "bin/index.js",
   "bin": {
-    "adr": "./bin/index.js"
+    "simple-adrs": "./bin/index.js"
   },
   "scripts": {
     "test": "jest",
