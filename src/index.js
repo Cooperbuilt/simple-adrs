@@ -1,13 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
-// adrTitle
-// supersedesNote
-
-// adrTitle
-// adrFileName
-// supersedesNote
-
 // Define the templates
 const adrTemplate = `
 # {{adrTitleCase}}
