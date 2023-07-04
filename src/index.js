@@ -175,6 +175,7 @@ const addSupersededByNote = (
     )}](${supersededAdrFileName})`
   );
 
+  // TODO: figure out better formatting here
   if (supersededAdrRecordStart !== -1) {
     const nextAdrRecordStart = recordContent.indexOf(
       "##",
